@@ -1,0 +1,185 @@
+2024-05-02 06:16:20,794 INFO Set uid to user 0 succeeded
+2024-05-02 06:16:20,799 INFO supervisord started with pid 10
+2024-05-02 06:16:21,807 INFO spawned: 'queue_00' with pid 14
+2024-05-02 06:16:21,813 INFO spawned: 'queue_01' with pid 15
+2024-05-02 06:16:21,817 INFO spawned: 'queue_02' with pid 16
+2024-05-02 06:16:21,820 INFO spawned: 'schedule_00' with pid 17
+2024-05-02 06:17:12,228 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:17:12,231 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:17:12,231 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:17:22,257 INFO success: schedule_00 entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-05-02 06:17:22,975 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:17:22,976 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:17:22,979 INFO spawned: 'queue_00' with pid 46
+2024-05-02 06:17:22,982 INFO spawned: 'queue_01' with pid 47
+2024-05-02 06:17:22,983 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:17:22,984 INFO spawned: 'queue_02' with pid 48
+2024-05-02 06:18:13,132 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:18:13,136 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:18:13,137 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:18:23,803 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:18:23,803 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:18:23,805 INFO spawned: 'queue_00' with pid 72
+2024-05-02 06:18:23,806 INFO spawned: 'queue_01' with pid 73
+2024-05-02 06:18:23,807 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:18:24,813 INFO spawned: 'queue_02' with pid 76
+2024-05-02 06:19:13,961 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:19:13,963 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:19:14,969 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:19:24,488 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:19:24,488 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:19:24,490 INFO spawned: 'queue_00' with pid 93
+2024-05-02 06:19:24,491 INFO spawned: 'queue_01' with pid 94
+2024-05-02 06:19:25,440 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:19:26,454 INFO spawned: 'queue_02' with pid 102
+2024-05-02 06:20:14,606 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:20:14,612 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:20:16,618 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:20:25,404 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:20:25,405 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:20:25,408 INFO spawned: 'queue_00' with pid 119
+2024-05-02 06:20:25,409 INFO spawned: 'queue_01' with pid 120
+2024-05-02 06:20:27,140 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:20:28,146 INFO spawned: 'queue_02' with pid 128
+2024-05-02 06:21:16,340 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:21:16,342 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:21:18,347 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:21:26,218 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:21:26,219 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:21:27,232 INFO spawned: 'queue_00' with pid 145
+2024-05-02 06:21:27,238 INFO spawned: 'queue_01' with pid 146
+2024-05-02 06:21:29,855 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:21:30,862 INFO spawned: 'queue_02' with pid 154
+2024-05-02 06:22:18,051 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:22:18,057 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:22:21,068 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:22:28,184 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:22:28,190 INFO spawned: 'queue_00' with pid 171
+2024-05-02 06:22:28,190 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:22:29,200 INFO spawned: 'queue_01' with pid 173
+2024-05-02 06:22:32,614 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:22:33,621 INFO spawned: 'queue_02' with pid 180
+2024-05-02 06:23:18,845 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:23:19,856 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:23:23,875 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:23:29,823 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:23:29,827 INFO spawned: 'queue_00' with pid 197
+2024-05-02 06:23:29,873 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:23:30,878 INFO spawned: 'queue_01' with pid 199
+2024-05-02 06:23:35,273 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:23:36,279 INFO spawned: 'queue_02' with pid 206
+2024-05-02 06:24:20,433 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:24:21,436 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:24:27,216 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:24:30,867 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:24:31,557 INFO spawned: 'queue_00' with pid 223
+2024-05-02 06:24:31,608 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:24:32,615 INFO spawned: 'queue_01' with pid 225
+2024-05-02 06:24:37,139 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:24:38,153 INFO spawned: 'queue_02' with pid 232
+2024-05-02 06:25:22,376 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:25:22,947 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:25:29,000 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:25:33,255 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:25:33,258 INFO spawned: 'queue_00' with pid 249
+2024-05-02 06:25:34,310 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:25:35,321 INFO spawned: 'queue_01' with pid 251
+2024-05-02 06:25:39,790 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:25:40,801 INFO spawned: 'queue_02' with pid 258
+2024-05-02 06:26:23,959 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:26:25,968 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:26:30,983 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:26:34,990 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:26:35,948 INFO spawned: 'queue_00' with pid 275
+2024-05-02 06:26:37,001 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:26:38,011 INFO spawned: 'queue_01' with pid 277
+2024-05-02 06:26:42,501 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:26:43,508 INFO spawned: 'queue_02' with pid 284
+2024-05-02 06:27:26,027 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:27:28,031 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:27:34,047 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:27:36,624 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:27:37,634 INFO spawned: 'queue_00' with pid 296
+2024-05-02 06:27:39,678 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:27:40,683 INFO spawned: 'queue_01' with pid 303
+2024-05-02 06:27:45,174 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:27:46,183 INFO spawned: 'queue_02' with pid 310
+2024-05-02 06:28:28,094 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:28:31,102 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:28:37,118 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:28:39,281 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:28:40,294 INFO spawned: 'queue_00' with pid 324
+2024-05-02 06:28:42,348 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:28:43,358 INFO spawned: 'queue_01' with pid 331
+2024-05-02 06:28:47,915 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:28:48,927 INFO spawned: 'queue_02' with pid 338
+2024-05-02 06:29:31,094 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:29:34,106 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:29:39,123 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:29:42,012 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:29:43,024 INFO spawned: 'queue_00' with pid 350
+2024-05-02 06:29:44,015 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:29:45,021 INFO spawned: 'queue_01' with pid 357
+2024-05-02 06:29:50,668 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:29:51,681 INFO spawned: 'queue_02' with pid 364
+2024-05-02 06:30:33,176 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:30:35,183 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:30:42,201 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:30:43,701 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:30:44,714 INFO spawned: 'queue_00' with pid 378
+2024-05-02 06:30:46,652 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:30:47,666 INFO spawned: 'queue_01' with pid 385
+2024-05-02 06:30:53,464 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:30:54,481 INFO spawned: 'queue_02' with pid 392
+2024-05-02 06:31:35,318 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:31:38,327 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:31:45,349 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:31:46,484 WARN exited: queue_00 (exit status 1; not expected)
+2024-05-02 06:31:47,506 INFO spawned: 'queue_00' with pid 404
+2024-05-02 06:31:49,394 WARN exited: queue_01 (exit status 1; not expected)
+2024-05-02 06:31:50,402 INFO spawned: 'queue_01' with pid 411
+2024-05-02 06:31:56,150 WARN exited: queue_02 (exit status 1; not expected)
+2024-05-02 06:31:57,156 INFO spawned: 'queue_02' with pid 418
+2024-05-02 06:32:38,266 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:32:41,277 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 06:32:47,291 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 08:16:14,359 INFO Set uid to user 0 succeeded
+2024-05-02 08:16:14,367 INFO supervisord started with pid 10
+2024-05-02 08:16:15,377 INFO spawned: 'queue_00' with pid 14
+2024-05-02 08:16:15,382 INFO spawned: 'queue_01' with pid 15
+2024-05-02 08:16:15,387 INFO spawned: 'queue_02' with pid 16
+2024-05-02 08:16:15,392 INFO spawned: 'schedule_00' with pid 17
+2024-05-02 08:17:06,263 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 08:17:06,265 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 08:17:06,266 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 08:17:16,294 INFO success: schedule_00 entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-05-02 08:26:40,763 INFO Set uid to user 0 succeeded
+2024-05-02 08:26:40,766 INFO supervisord started with pid 11
+2024-05-02 08:26:41,778 INFO spawned: 'queue_00' with pid 15
+2024-05-02 08:26:41,784 INFO spawned: 'queue_01' with pid 16
+2024-05-02 08:26:41,788 INFO spawned: 'queue_02' with pid 17
+2024-05-02 08:26:41,794 INFO spawned: 'schedule_00' with pid 18
+2024-05-02 08:27:32,641 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 08:27:32,646 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 08:27:32,646 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 08:27:42,670 INFO success: schedule_00 entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-05-02 09:51:07,782 INFO Set uid to user 0 succeeded
+2024-05-02 09:51:07,832 INFO supervisord started with pid 11
+2024-05-02 09:51:08,846 INFO spawned: 'queue_00' with pid 15
+2024-05-02 09:51:08,850 INFO spawned: 'queue_01' with pid 16
+2024-05-02 09:51:08,856 INFO spawned: 'queue_02' with pid 17
+2024-05-02 09:51:09,507 INFO spawned: 'schedule_00' with pid 18
+2024-05-02 09:51:59,341 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 09:51:59,341 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 09:51:59,342 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 09:52:09,377 INFO success: schedule_00 entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)
+2024-05-02 14:15:54,569 INFO Set uid to user 0 succeeded
+2024-05-02 14:15:54,573 INFO supervisord started with pid 11
+2024-05-02 14:15:55,584 INFO spawned: 'queue_00' with pid 15
+2024-05-02 14:15:55,588 INFO spawned: 'queue_01' with pid 16
+2024-05-02 14:15:55,590 INFO spawned: 'queue_02' with pid 17
+2024-05-02 14:15:55,593 INFO spawned: 'schedule_00' with pid 18
+2024-05-02 14:16:45,622 INFO success: queue_00 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 14:16:45,623 INFO success: queue_01 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 14:16:45,623 INFO success: queue_02 entered RUNNING state, process has stayed up for > than 50 seconds (startsecs)
+2024-05-02 14:16:55,672 INFO success: schedule_00 entered RUNNING state, process has stayed up for > than 60 seconds (startsecs)

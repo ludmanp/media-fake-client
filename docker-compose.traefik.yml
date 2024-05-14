@@ -1,0 +1,58 @@
+version: '3'
+networks:
+  proxy:
+    external: true
+    name: traefik_proxy
+  backend:
+    driver: bridge
+    internal: true
+  database:
+    external: true
+    name: mysql8_backend
+services:
+  web:
+    build:
+      context: docker-traefik/app/
+      dockerfile: Dockerfile
+    image: media-server/media-server:1.0
+    container_name: media-server_web
+    restart: always
+    platform: linux/amd64
+    environment:
+      XDEBUG_MODE: 'develop,debug,coverage'
+      XDEBUG_CONFIG: 'client_host=host.docker.internal idekey=docker'
+      PHP_IDE_CONFIG: 'serverName=Docker'
+    volumes:
+      - .:/app
+      - ./docker-traefik/supervisor/conf.d:/etc/supervisor/conf.d
+    labels:
+      traefik.enable: "false"
+    networks:
+      - proxy
+      - backend
+      - database
+  nginx:
+    image: nginx:latest
+    container_name: media-server_nginx
+    restart: always
+    volumes:
+      - ./public:/app/public
+      - ./storage/app:/app/storage/app
+      - ./docker-traefik/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./docker-traefik/nginx-logs:/var/log/nginx
+    depends_on:
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik_proxy"
+      - "traefik.http.routers.media-server.entrypoints=http"
+      - "traefik.http.routers.media-server.rule=Host(`media-server.localhost`)"
+      - "traefik.http.routers.media-server.middlewares=traefik-https-redirect"
+      - "traefik.http.routers.media-server-secure.entrypoints=https"
+      - "traefik.http.routers.media-server-secure.rule=Host(`media-server.localhost`)"
+      - "traefik.http.routers.media-server-secure.tls.certresolver=http"
+    networks:
+      proxy:
+        aliases:
+          - "media-server.localhost"
+      backend:
